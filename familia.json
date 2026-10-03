@@ -1,0 +1,36 @@
+{
+  "_aviso": "DATOS DE EJEMPLO - sustituye este archivo solo si quieres publicar datos anonimizados",
+  "personas": [
+    { "id": "1", "nombre": "Alex", "apellidos": "Ejemplo", "genero": "M", "nacimiento": "1990-04-12", "fallecimiento": null, "rol": "yo", "notas": "Persona principal de ejemplo" },
+    { "id": "2", "nombre": "Nora", "apellidos": "Ejemplo", "genero": "F", "nacimiento": "1993-09-28", "fallecimiento": null, "rol": "hermano", "notas": "Familiar de ejemplo" },
+    { "id": "11", "nombre": "Mario", "apellidos": "Ejemplo", "genero": "M", "nacimiento": "1965-02-17", "fallecimiento": null, "rol": "padre" },
+    { "id": "111", "nombre": "Luis", "apellidos": "Modelo", "genero": "M", "nacimiento": "1935-06-03", "fallecimiento": "2010-11-19", "rol": "abuelo" },
+    { "id": "112", "nombre": "Elena", "apellidos": "Modelo", "genero": "F", "nacimiento": "1938-01-22", "fallecimiento": "2018-07-05", "rol": "abuela" },
+    { "id": "1111", "nombre": "Pablo", "apellidos": "Raíces", "genero": "M", "nacimiento": "X", "fallecimiento": "X", "rol": "bisabuelo" },
+    { "id": "1112", "nombre": "Clara", "apellidos": "Raíces", "genero": "F", "nacimiento": "X", "fallecimiento": "X", "rol": "bisabuela" },
+    { "id": "1121", "nombre": "Hugo", "apellidos": "Origen", "genero": "M", "nacimiento": "X", "fallecimiento": "X", "rol": "bisabuelo" },
+    { "id": "1122", "nombre": "Rosa", "apellidos": "Origen", "genero": "F", "nacimiento": "X", "fallecimiento": "X", "rol": "bisabuela" },
+    { "id": "12", "nombre": "Laura", "apellidos": "Ejemplo", "genero": "F", "nacimiento": "1968-08-30", "fallecimiento": null, "rol": "madre" },
+    { "id": "121", "nombre": "Diego", "apellidos": "Modelo", "genero": "M", "nacimiento": "1939-03-14", "fallecimiento": "2015-02-09", "rol": "abuelo" },
+    { "id": "1211", "nombre": "Mateo", "apellidos": "Raíces", "genero": "M", "nacimiento": "X", "fallecimiento": "X", "rol": "bisabuelo" },
+    { "id": "1212", "nombre": "Irene", "apellidos": "Raíces", "genero": "F", "nacimiento": "X", "fallecimiento": "X", "rol": "bisabuela" },
+    { "id": "122", "nombre": "Sofía", "apellidos": "Modelo", "genero": "F", "nacimiento": "1942-10-21", "fallecimiento": "2020-04-18", "rol": "abuela" },
+    { "id": "1221", "nombre": "Ángel", "apellidos": "Origen", "genero": "M", "nacimiento": "1910-12-06", "fallecimiento": "X", "rol": "bisabuelo" },
+    { "id": "12211", "nombre": "Bruno", "apellidos": "Historia", "genero": "M", "nacimiento": "X", "fallecimiento": "X", "rol": "tatarabuelo" },
+    { "id": "12212", "nombre": "Alma", "apellidos": "Historia", "genero": "F", "nacimiento": "X", "fallecimiento": "X", "rol": "tatarabuela" },
+    { "id": "1222", "nombre": "Eva", "apellidos": "Origen", "genero": "F", "nacimiento": "1914-05-25", "fallecimiento": "X", "rol": "bisabuela" },
+    { "id": "12221", "nombre": "Leo", "apellidos": "Memoria", "genero": "M", "nacimiento": "X", "fallecimiento": "X", "rol": "tatarabuelo" },
+    { "id": "12222", "nombre": "Mía", "apellidos": "Memoria", "genero": "F", "nacimiento": "X", "fallecimiento": "X", "rol": "tatarabuela" }
+  ],
+  "familias": [
+    { "padres": ["11", "12"], "hijos": ["1", "2"] },
+    { "padres": ["111", "112"], "hijos": ["11"] },
+    { "padres": ["121", "122"], "hijos": ["12"] },
+    { "padres": ["1211", "1212"], "hijos": ["121"] },
+    { "padres": ["1111", "1112"], "hijos": ["111"] },
+    { "padres": ["1121", "1122"], "hijos": ["112"] },
+    { "padres": ["1221", "1222"], "hijos": ["122"] },
+    { "padres": ["12211", "12212"], "hijos": ["1221"] },
+    { "padres": ["12221", "12222"], "hijos": ["1222"] }
+  ]
+}
